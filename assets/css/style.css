@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: block;
   position: relative;
   overflow: hidden;
-  border: none;
 }
 
 .item .item-wrap:after {
@@ -135,6 +134,19 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   visibility: visible;
 }
 
+.image-wrap .image {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image-wrap .image img {
+  margin: 0 auto 20px auto;
+}
+
+.image-wrap .image p {
+  margin-bottom: 20px;
+}
+
 .h3 {
   font-size: 20px;
 }
@@ -145,6 +157,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .heading {
   font-size: 28px;
+}
+
+.back {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .readmore {
@@ -168,15 +185,30 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: #000;
 }
 
+.github {
+  font-size: 15px;
+}
+
+.images-slider .swiper-pagination {
+  position: relative;
+}
+
+.images-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(13, 30, 45, 0.3);
+  opacity: 1;
+}
+
+.images-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgba(13, 30, 45, 0.6);
+}
+
 .sticky-content {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   /* required */
-}
-
-.list {
-  justify-content: center;
 }
 
 .list-line li {

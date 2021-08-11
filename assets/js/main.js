@@ -35,14 +35,6 @@
   }
 
   /**
-   * burgerMenu
-   */
-  const burgerMenu = select('.burger')
-  on('click', '.burger', function(e) {
-    burgerMenu.classList.toggle('active');
-  })
-
-  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
@@ -75,7 +67,7 @@
   /**
    * Images slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.images-slider', {
     speed: 600,
     loop: true,
     autoplay: {
