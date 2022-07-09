@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding: 7rem 0;
 }
 
+.main-title {
+  padding-left: 12px
+}
+
 .filters a {
   text-decoration: none;
   color: #000;
