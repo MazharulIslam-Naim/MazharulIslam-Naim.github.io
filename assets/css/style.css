@@ -15,7 +15,13 @@ a:hover {
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
   font-family: "Raleway", sans-serif;
 }
 
@@ -36,7 +42,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   position: relative;
 }
 
-.nav-buttons a:hover, .nav-buttons a:focus, .nav-buttons a:active {
+.nav-buttons a:hover,
+.nav-buttons a:focus,
+.nav-buttons a:active {
   text-decoration: none;
 }
 
@@ -69,7 +77,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .main-title {
-  padding-left: 12px
+  padding-left: 12px;
 }
 
 .filters a {
@@ -81,7 +89,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   position: relative;
 }
 
-.filters a:hover, .filters a:focus, .filters a:active {
+.filters a:hover,
+.filters a:focus,
+.filters a:active {
   text-decoration: none;
 }
 
@@ -131,11 +141,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: rgba(0, 0, 0, 0.4);
   visibility: hidden;
   opacity: 0;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .item .item-wrap img {
-  transition: .3s transform ease;
+  transition: 0.3s transform ease;
   transform: scale(1);
 }
 
@@ -150,7 +160,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   opacity: 0;
   visibility: hidden;
   margin-top: 20px;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
 }
 
 .item .item-wrap > .project-info h3 {
@@ -161,7 +171,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .item .item-wrap > .project-info span {
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .item .item-wrap:hover {
@@ -229,11 +239,13 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 12px;
   text-transform: uppercase;
   color: #000;
-  transition: .2s all ease;
+  transition: 0.2s all ease;
   font-weight: 700;
 }
 
-.readmore:active, .readmore:focus, .readmore:hover {
+.readmore:active,
+.readmore:focus,
+.readmore:hover {
   outline: none;
 }
 
@@ -263,8 +275,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .sticky-content {
-  position: sticky;
   position: -webkit-sticky;
+  position: sticky;
   top: 0;
   /* required */
 }
@@ -279,7 +291,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   content: "";
   position: absolute;
   left: 0;
-  top: .7rem;
+  top: 0.7rem;
   width: 10px;
   height: 2px;
   background: #000;
